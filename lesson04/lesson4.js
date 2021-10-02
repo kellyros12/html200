@@ -1,6 +1,5 @@
 function squareNumber() {
-  alert('Enter a number');
-  let input = prompt();
+  let input = prompt('Enter a number');
   let squaredInput = Number(input) ** 2;
   alert(squaredInput);
   return squaredInput;
